@@ -8,6 +8,9 @@ Basically this repository is a reference for the concept and implementation of s
 ### Data Structures
 
 #### Arrays
+- Theory
+- Implementation
+    - One Dimensional Array in C
 
 #### Hash maps
 
