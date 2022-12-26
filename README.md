@@ -10,8 +10,11 @@ Basically this repository is a reference for the concept and implementation of s
 #### Arrays
 - Theory
 - Implementation
-    - One Dimensional Array in C
+    - One dimensional Array in C
     - Two Dimensional Array in C
+    - One Dimensional Dynamic Array in C
+- Exercises
+    - Two Sum in C, C++, Python
 
 #### Hash maps
 
