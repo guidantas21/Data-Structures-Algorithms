@@ -12,7 +12,8 @@ Basically this repository is a reference for the concept and implementation of s
 - Implementation
     - One dimensional Array in C
     - Two Dimensional Array in C
-    - One Dimensional Dynamic Array in C
+    - Dynamic One Dimensional Array in C
+    - Dynamic Two Dimensional Array in C
 - Exercises
     - Two Sum in C, C++, Python
 
