@@ -1,3 +1,5 @@
+###### IMPLEMENTATION #######
+
 class Solution:
     def twoSum(nums: list[int], target: int) -> list[int]:
         for i in range(len(nums)):
@@ -5,6 +7,11 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i,j]
 
+###### TESTING #######
+
+# INPUT
 nums = [2,7,11,15];
 target = 9
+
+# OUTPUT
 print(Solution.twoSum(nums, target))

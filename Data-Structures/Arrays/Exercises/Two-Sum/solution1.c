@@ -23,6 +23,9 @@ int main() {
     int target = 9;
     int returnSize = sizeof(int) * 2;
 
-    int* answer = twoSum(nums, 4, 9, &returnSize);
+    int* answer = twoSum(nums, numsSize, target);
     printf("%d and %d", answer[0], answer[1]);
+    free(answer);
+
+    return 0;
 }
