@@ -1,7 +1,9 @@
+import unittest
+
 ###### IMPLEMENTATION #######
 
 class Solution:
-    def twoSum(nums: list[int], target: int) -> list[int]:
+    def two_sum(self, nums: list[int], target: int) -> list[int]:
         for i in range(len(nums)):
             for j in range(i+1,len(nums)):
                 if nums[i] + nums[j] == target:
@@ -9,9 +11,15 @@ class Solution:
 
 ###### TESTING #######
 
-# INPUT
-nums = [2,7,11,15];
-target = 9
+class TestTwoSum(unittest.TestCase):
+    def test_two_sum_1(self):
+        self.assertEqual(Solution().two_sum([2,7,11,15], 9), [0,1])
+    
+    def test_two_sum_2(self):
+        self.assertEqual(Solution().two_sum([3,2,4], 6), [1,2])
+    
+    def test_two_sum_3(self):
+        self.assertEqual(Solution().two_sum([3,3], 6), [0,1])
 
-# OUTPUT
-print(Solution.twoSum(nums, target))
+if __name__ == '__main__':
+    unittest.main()
