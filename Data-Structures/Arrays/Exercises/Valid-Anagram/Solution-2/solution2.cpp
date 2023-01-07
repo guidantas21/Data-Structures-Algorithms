@@ -10,16 +10,14 @@ public:
     bool isAnagram(string s, string t) {
         if (s.length() != t.length())
             return false;
+            
+        sort(s.begin(),s.end());
+        sort(t.begin(),t.end());
 
-        set<char> checked;
+        for (int i=0; i < t.length(); i++)
+            if (s[i] != t[i])
+                return false;
 
-        for (auto c : s) 
-            if (checked.find(c) == checked.end()) {
-                if (count(s.begin(), s.end(), c) != count(t.begin(), t.end(), c))
-                    return false;
-
-                checked.insert(c);
-            }
         return true;
     }
 };
@@ -27,6 +25,5 @@ public:
 int main() {
     cout << Solution().isAnagram("anagram", "nagaram") << "\n";
     cout << Solution().isAnagram("rat", "car") << "\n";
-
     return 0;
 }
