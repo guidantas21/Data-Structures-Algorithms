@@ -40,7 +40,8 @@ Output: [0,1]
 
 - This solution is kinda like a brutal force, but it solves the problem...
 - Basically consists in looping over each number and sum this number with each one of the remaining numbers on the array, if the sum between them equals the target number, store their indexes on an array an return it.
-- Time complexity: O(n2)
+- Time complexity: O(n²)
+- Space complexity: O(1)
 
 ```
 twoSum(nums, target)

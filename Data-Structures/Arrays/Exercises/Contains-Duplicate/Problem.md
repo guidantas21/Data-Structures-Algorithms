@@ -31,7 +31,9 @@ Output: true
 ### Solution #1
 - Brute force
 - Simple solution, but not very efficient
-- Compare each element with the others, if the elements are the same return false
+- Compare each element with the others, if the elements are the same return false`
+- Time Complexity: O(n²)
+- Space Complexity: O(1)
 ```
 containsDuplicate(nums, numsSize)
     for i = 0; i < numsSize; i++
@@ -39,7 +41,6 @@ containsDuplicate(nums, numsSize)
             for j = i+1; j < numsSize; j++
                 if nums[i] == nums[j]
                     return true
-    
     return false
 ```
 
@@ -47,6 +48,8 @@ containsDuplicate(nums, numsSize)
 - Sort the array
 - Linearly traverse, find if there is any of the number and its greater one are equal or not
 - Efficient
+- Time Complexity: O(nlogn)
+- Space Complexity: O(1)
 ```
 containsDuplicate(nums, numsSize)
     sort(nums)

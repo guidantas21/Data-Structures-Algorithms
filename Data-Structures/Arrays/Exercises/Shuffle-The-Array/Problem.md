@@ -32,7 +32,8 @@ Output: [1,2,1,2]
 
 ### Solution #1:
 
-- Time complexity: O(n) (linear time)
+- Time complexity: O(n)
+- Space complexity: O(n)
 ```
 shuffleNumbers(nums, n)
     create solution array with size 2n
