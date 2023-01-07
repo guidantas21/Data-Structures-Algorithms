@@ -17,6 +17,7 @@ Basically this repository is a reference for the concept and implementation of s
 - Exercises
     - Two Sum in C, C++, Python
     - Shuffle the array in C, C++, Python
+    - Contains Duplicate in C, C++, Python
 
 #### Hash maps
 
