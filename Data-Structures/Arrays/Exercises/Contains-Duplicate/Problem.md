@@ -1,7 +1,8 @@
 # Contains Duplicate
 
 ## Problem
-Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+- Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 ### Example 1:
 ```
@@ -31,7 +32,7 @@ Output: true
 ### Solution #1
 - Brute force
 - Simple solution, but not very efficient
-- Compare each element with the others, if the elements are the same return false`
+- Compare each element with the others, if the elements are the same return false
 - Time Complexity: O(n²)
 - Space Complexity: O(1)
 ```
