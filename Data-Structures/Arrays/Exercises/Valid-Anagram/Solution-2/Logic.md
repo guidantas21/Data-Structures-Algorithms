@@ -1,4 +1,4 @@
-Simple and efficient
+# Simple and efficient solution using sort
 
 ## Intuition
 Conditions to be an anagram:
