@@ -13,7 +13,8 @@ void randomVector(std::vector<int> &v, size_t size) {
 
 std::vector<int> getRandomVector(size_t size) {
     std::vector<int> v;
-    randomVector(v, size);
+    for (int i = 0; i < size; i++)
+        v.push_back(getRandomNumber(10));
 
     return v;
 }

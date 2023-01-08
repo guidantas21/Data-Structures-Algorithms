@@ -10,10 +10,14 @@ Basically this repository is a reference for the concept and implementation of s
 #### Arrays
 - Theory
 - Implementation
-    - One dimensional Array in C
+    - One dimensional Array
+        - Arrays in C
+        - Dynamic Arrays in C
+        - Vectors in C++
     - Two Dimensional Array in C
-    - Dynamic One Dimensional Array in C
-    - Dynamic Two Dimensional Array in C
+        - Arrays in C
+        - Dynamic Arrays in C
+        - Vectors in C++
 - Exercises
     - Two Sum in C, C++, Python
     - Shuffle the array in C, C++, Python
@@ -31,6 +35,5 @@ Basically this repository is a reference for the concept and implementation of s
 #### Heap
 
 #### Graphs
-- Theory
 
 
