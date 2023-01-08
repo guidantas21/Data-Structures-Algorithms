@@ -15,7 +15,7 @@ So, basically we need to verify if the length of the strings are the same (condi
 
 ## Complexity
 - Time complexity: O(nlogn)
-- Space complexity: O(n)
+- Space complexity: O(1)
 
 ## Code
 

@@ -1,4 +1,4 @@
-# Brutal force solution
+# Brute force solution
 
 ## Intuition
 Basically the ideia is to loop over each element and compare it with the other the elements remaining
